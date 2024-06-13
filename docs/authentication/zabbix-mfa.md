@@ -1,17 +1,16 @@
-# Zabbix MFA support 
+# Supporto di Zabbix per l'autenticazione a più fattori
 
-We all know that before you can start configuring Zabbix via WebUI you have to sign in. Zabbix has several options to provide better security for user passwords by configuring password policy:
+Prima di iniziare la configurazione di Zabbix dall'interfaccia web bisogna effettuare l'autetincazione. Zabbix supporta diversi metodi per fornire una maggiore sicurezza alle credenziali utenza e password tramite le seguenti regole (policy):
 
-- Requirement for Minimum password length
-- Requirements for password to contain an uppercase and a lowercase Latin letter, a digit, a special character
-- Requirement to avoid easy-to-guess passwords
+- Requisiti sulla lunghezza minima di una password
+- Requisiti sulla composizione della password (caratteri maiuscoli, minuscoli, cifre e caratteri speciali)
+- Restrizioni sulle parole chiave facilmente indovinabili
 
-To secure sign in process even more you can configure multi factor authentication (MFA). MFA protects Zabbix by using a second source of validation before granting access to its WebUI after a user enters his/her password correctly. Zabbix offers to types of MFA - Time-based one-time password (TOTP) and Duo MFA provider.
+Per rendere il processo ancora più sicuro è possibile utilizzare l'autenticazione a più fattori (d'ora in poi MFA, Multi Factor Authenitcation). Questo permette a Zabbix di interrogare un secondo dispositivo (di cui solo l'utente possiede l'accesso) prima di concedere l'ingresso all'interfaccia web dopo che l'utente ha inserito correttamente le credenziali. Zabbix offre due tipi di MFA: Un codice univoco utilizzabile una sola volta a scadenza (d'ora in poi TOTP, time-based one-time password) e il sistema MFA fornito da Duo.
 
-## Time-based one-time password
+## TOTP (Time-based one-time password)
 
 In the menu select ```Users``` section and then ```Authentication```
-
 
 ![MFA Settings initial](image/mfa_settings_initial.png){ width=90% }
 
