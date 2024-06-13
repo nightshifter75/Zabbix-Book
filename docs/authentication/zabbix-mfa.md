@@ -10,11 +10,11 @@ Per rendere il processo ancora più sicuro è possibile utilizzare l'autenticazi
 
 ## TOTP (Time-based one-time password)
 
-Nell'elenco di sinistra aprire la sezione ```Users```, poi ```Authentication```
+Nell'elenco di sinistra aprire la sezione ```Users```, poi ```Authentication```. Ora in alto fare clic sul tab ```MFA settings```.
 
 ![MFA Settings initial](image/mfa_settings_initial.png)
 
-Ora in alto nel tab ```MFA settings``` selezionare la casella ```Enable multi-factor authentication```, poi selezionare ```TOTP``` nella lista di scelte.
+Nel tab ```MFA settings``` selezionare la casella ```Enable multi-factor authentication```, poi selezionare ```TOTP``` nella lista di scelte.
 
 ![MFA Settings TOTP](image/mfa_settings_TOTP_new.png){ width=90% }
 
