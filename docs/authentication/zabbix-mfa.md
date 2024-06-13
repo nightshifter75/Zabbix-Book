@@ -12,7 +12,7 @@ Per rendere il processo ancora più sicuro è possibile utilizzare l'autenticazi
 
 Nell'elenco di sinistra aprire la sezione ```Users```, poi ```Authentication```
 
-![MFA Settings initial](image/mfa_settings_initial.png){ width=90% }
+![MFA Settings initial](image/mfa_settings_initial.png)
 
 Ora in alto nel tab ```MFA settings``` selezionare la casella ```Enable multi-factor authentication```, poi selezionare ```TOTP``` nella lista di scelte.
 
