@@ -10,15 +10,15 @@ Per rendere il processo ancora più sicuro è possibile utilizzare l'autenticazi
 
 ## TOTP (Time-based one-time password)
 
-In the menu select ```Users``` section and then ```Authentication```
+Nell'elenco di sinistra aprire la sezione ```Users```, poi ```Authentication```
 
 ![MFA Settings initial](image/mfa_settings_initial.png){ width=90% }
 
-Now in ```MFA settings``` tab select the ```Enable multi-factor authentication``` check-box, then select ```TOTP``` in Type drop-down list.
+Ora in alto nel tab ```MFA settings``` selezionare la casella ```Enable multi-factor authentication```, poi selezionare ```TOTP``` nella lista di scelte.
 
 ![MFA Settings TOTP](image/mfa_settings_TOTP_new.png){ width=90% }
 
-In ```Hash function``` drop-down list you can choose SHA-1, SHA-256 or SHA-512, the higher number is the better security.
+Nella lista di scelte ```Hash function``` scegliere SHA-1, SHA-256 o SHA-512. Più alto è il numero del nome dell'algoritmo e maggiore è la sicurezza.
 
 In ```Code lentgh``` you can select how many digits will be generated for you by Authenticator application on your phone.
 
