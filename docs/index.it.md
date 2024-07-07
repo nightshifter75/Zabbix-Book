@@ -32,9 +32,9 @@ Questo libro utilizza la versione 7.x LTS (acronimo che sta per Long Term Suppor
 
 Questo libro cercherà di coprire tutti quanto gli argomenti ma se qualcosa manca fatemelo sapere, fate una richiesta pull. Non c'è bisogno di leggere questo libro da copertina a copertina: chi è alle prime armi probabilmente lo farà, altri possono saltare delle parti se non sono necessarie. Vorrei che questo libro sia veramente utile per tutti. Perciò, cercherò di spiegare ogni argomento al meglio, illustrando tutti quanti i passi nella maniera migliore.
 
-Il codice illustrato in questo libro verrà scritto come segue: 
+Il codice illustrato in questo libro verrà scritto come segue (con la possibilità di copiarlo direttamente): 
 ```
-# codice 
+codice 
 ```
 
 Altre annotazioni utili verrando indicate a piè di pagina:
