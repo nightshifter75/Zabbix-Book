@@ -2,7 +2,7 @@
 
 Benvenuti e grazie per l'interesse per il mio libro su Zabbix. Ho scritto [Zabbix cookbook](https://www.packtpub.com/product/zabbix-cookbook/9781784397586) and co wrote with Richards [Zabbix 4 Network Monitoring](https://www.packtpub.com/product/zabbix-4-network-monitoring-third-edition/9781789340266) qualche tempo fa per PackPub.
 
-![Zabbix cookbook](images/book1.png) ![Zabbix Network Monitoring 4](images/book2.png)
+![Zabbix cookbook](images/book1.png){width=200} ![Zabbix Network Monitoring 4](images/book2.png){width=200}
 
 Il "ricettario", primo nel suo genere, probabilmente datato, verrà sostituito da [Zabbix 7 IT Infrastructure Monitoring Cookbook](https://www.packtpub.com/product/zabbix-7-it-infrastructure-monitoring-cookbook-third-edition/9781801078320), scritto da Brian e Nathan, persone con le quali ho lavorato con piacere e che raccomando caldamente. Ci sono molti libri disponibili da Packt su Zabbix. Una panoramica completa è disponibile qui: [Zabbix books at pack](https://www.packtpub.com/search?query=zabbix). Se preferite cercare libri che non siano in lingua inglese, su Amazon sono disponibili libri editi da Packt e altri  editori in cinese, spagnolo e possibilmente anche in altre lingue. [Other books](https://www.amazon.com/s?k=zabbix&crid=3G0JRTVTKS7YU&sprefix=zabbix+%2Caps%2C167&ref=nb_sb_noss_2)
 
@@ -45,17 +45,23 @@ Esempio di nota a piè di pagina[^1] con un testo aggiuntivo.
 
 Le altre informazioni importanti verranno mostrate come segue:
 
-> [!NOTE]  
-> Evidenzia informazioni di cui gli utenti dovrebbero tenere conto.
+???+ note
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-> [!TIP]
-> Informazioni facoltative per aiutare un utente a migliorare il proprio codice.
+???+ info
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-> [!IMPORTANT]  
-> Informazioni  necessarie affinché l'utente riesca a utilizzare una certa funzione.
+???+ tip
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-> [!WARNING]  
-> Contenuti importanti che richiedono l'attenzione immediata dell'utente per evitare potenziali rischi.
+???+ question
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-> [!CAUTION]
-> Possibili conseguenze negative di un'azione da evitare.
+???+ warning
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+???+ bug
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+???+ example
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
