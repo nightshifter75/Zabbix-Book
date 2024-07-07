@@ -45,17 +45,17 @@ Esempio di nota a piè di pagina[^1] con un testo aggiuntivo.
 
 Le altre informazioni importanti verranno mostrate come segue:
 
-[!NOTE]  
-Evidenzia informazioni di cui gli utenti dovrebbero tenere conto.
+> [!NOTE]  
+> Evidenzia informazioni di cui gli utenti dovrebbero tenere conto.
 
-[!TIP]
-Informazioni facoltative per aiutare un utente a migliorare il proprio codice.
+> [!TIP]
+> Informazioni facoltative per aiutare un utente a migliorare il proprio codice.
 
-[!IMPORTANT]  
-Informazioni  necessarie affinché l'utente riesca a utilizzare una certa funzione.
+> [!IMPORTANT]  
+> Informazioni  necessarie affinché l'utente riesca a utilizzare una certa funzione.
 
-[!WARNING]  
-Contenuti importanti che richiedono l'attenzione immediata dell'utente per evitare potenziali rischi.
+> [!WARNING]  
+> Contenuti importanti che richiedono l'attenzione immediata dell'utente per evitare potenziali rischi.
 
-[!CAUTION]
-Possibili conseguenze negative di un'azione da evitare.
+> [!CAUTION]
+> Possibili conseguenze negative di un'azione da evitare.
