@@ -22,53 +22,46 @@ Perché bisognerebbe seguire un corso quando si può leggere un libro  gratuitam
 
 ## Che sistema operativo serve?
 
-Dal momento che lavoro quasi esclusivamente con RHEL e visto che sono fermamente convito che RHEL è la scelta migliore in ambienti di produzione, ho scelto di utilizzare una delle distribuzioni disponibili gratuitamente. Zabbix è supportato su Ubuntu, Debian, SuSE, Raspberry... E può essere compilato su qualsiasi sistema operativo basato su Unix, quindi è praticamente impossibile documentarli tutti. Tuttavia, questo libro è open-source e in git, quindi chiunque può contribuire con le proprie preferenze. Io userò [Rocky Linux](https://rockylinux.org/) 9 in questo libro, ma le istruzioni saranno sicuramente valide (con qualche minima variazione) anche su altre distribuzioni.
+Dal momento che lavoro quasi esclusivamente con Red Hat Enterprise Linux (d'ora in poi RHEL). Sebbene io sia fermamente convito che RHEL sia la scelta migliore in ambienti di produzione, in questo libro ho scelto di utilizzare una delle distribuzioni disponibili gratuitamente. Zabbix è supportato su Ubuntu, Debian, SuSE, Raspberry... E può essere compilato su qualsiasi sistema operativo basato su Unix, quindi è praticamente impossibile documentarli tutti. Tuttavia, questo libro è open-source e in git, quindi chiunque può contribuire con le proprie preferenze. Io userò [Rocky Linux](https://rockylinux.org/) 9 in questo libro, ma le istruzioni saranno sicuramente valide (con qualche minima variazione) anche su altre distribuzioni.
 
-## What version of Zabbix is used in this book ?
+## Quale versione di Zabbix è utilizzata in questo libro?
 
-Since we are almost at the release of Zabbix 7, I will focus on version 7 since it will be the new LTS. It should also apply to most other versions but of course there will be minor changes. In the future, if there is enough support from the community to update this book together, it would be great if we could build a book for every LTS version available.
+Questo libro utilizza la versione 7.x LTS (acronimo che sta per Long Term Support). Le istruzioni contenute in questo libro sono valide anche per le altri versioni con qualche variazione. In futuro, se ci sarà sufficiente supporto dalla community per la stesura di questo libro, sarebbe magnifico scrivere un libro per ogni versione LTS.
 
+## Come utilizzare questo libro?
 
-## How to use this book ?
+Questo libro cercherà di coprire tutti quanto gli argomenti ma se qualcosa manca fatemelo sapere, fate una richiesta pull. Non c'è bisogno di leggere questo libro da copertina a copertina: chi è alle prime armi probabilmente lo farà, altri possono saltare delle parti se non sono necessarie. Vorrei che questo libro sia veramente utile per tutti. Perciò, cercherò di spiegare ogni argomento al meglio, illustrando tutti quanti i passi nella maniera migliore.
 
-The book will try to cover all the topics, feel free to let me know if something is missing or feel free to make a pull request. 
-There is no need to start from page 1 and read the book till the end. Some people will be looking for basic knowledge others might want to skip to the fun part, so I want the book to be useful for everyone. Therefor I will try to explain as best as possible in every topic the exact steps needed to reproduce.
- 
-There will be moments in the book where you need to type some code, I will show the commands you need to type in a box just like here.
-
+Il codice illustrato in questo libro verrà scritto come segue: 
 ```
 # some command 
 ```
 
-Notes to some useful documentation will be added at the bottom of the page.
+Altre annotazioni utili verrando indicate a piè di pagina:
 
+Esempio di nota a piè di pagina[^1] con un testo aggiuntivo.
 
-Here is a simple footnote[^1]. With some additional text after it.
+[^1]: Qui si troveranno informazioni aggiuntive.
 
-[^1]: My reference.
+Le altre informazioni importanti verranno mostrate come segue:
 
-
-In case there is some important information to share I will add notes in the documentation like can be seen here :
-
-???+ note
+???+ Nota
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-???+ info
+???+ Informazioni
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-???+ tip
+???+ Trucchi
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-???+ question
+???+ Domande
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-???+ warning
+???+ Attenzione
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-???+ bug
+???+ Errore
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
-???+ example
+???+ Esempi
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-
