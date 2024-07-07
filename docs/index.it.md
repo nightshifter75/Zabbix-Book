@@ -45,23 +45,17 @@ Esempio di nota a piè di pagina[^1] con un testo aggiuntivo.
 
 Le altre informazioni importanti verranno mostrate come segue:
 
-???+ Nota
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+[!NOTE]  
+Evidenzia informazioni di cui gli utenti dovrebbero tenere conto.
 
-???+ Informazioni
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+[!TIP]
+Informazioni facoltative per aiutare un utente a migliorare il proprio codice.
 
-???+ Trucchi
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+[!IMPORTANT]  
+Informazioni  necessarie affinché l'utente riesca a utilizzare una certa funzione.
 
-???+ Domande
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+[!WARNING]  
+Contenuti importanti che richiedono l'attenzione immediata dell'utente per evitare potenziali rischi.
 
-???+ Attenzione
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-???+ Errore
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
-
-???+ Esempi
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+[!CAUTION]
+Possibili conseguenze negative di un'azione da evitare.
