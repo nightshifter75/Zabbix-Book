@@ -34,7 +34,7 @@ Questo libro cercherà di coprire tutti quanto gli argomenti ma se qualcosa manc
 
 Il codice illustrato in questo libro verrà scritto come segue: 
 ```
-# some command 
+# codice 
 ```
 
 Altre annotazioni utili verrando indicate a piè di pagina:
